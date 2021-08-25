@@ -1,0 +1,38 @@
+{
+  "name": "just-noise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "ava",
+    "seeds": "node seeds/index.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "handlebars": "^4.7.3",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.7",
+    "sequelize": "^5.22.4"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "jest": "^25.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-trecker/music-placeholder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/d-trecker/music-placeholder/issues"
+  },
+  "homepage": "https://github.com/d-trecker/music-placeholder#readme"
+}
